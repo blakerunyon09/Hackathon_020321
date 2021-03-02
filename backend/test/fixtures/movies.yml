@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  release_date: 1
+  genre: MyString
+  80s_score: 1
+  image: MyString
+
+two:
+  name: MyString
+  release_date: 1
+  genre: MyString
+  80s_score: 1
+  image: MyString
