@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/6f/74/55/6f7455b4f10b241ad463057762f3170f.jpg");
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    outline-style: double;
+    outline-color: black;
+    background: rgb(250, 249, 249, 0.90);
+}
+
+#movie-cards img {
+    width: 300px;
+}
+
+#movie-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 2px 16px;
+    text-align: center;
+}
+
+.individual-card {
+    background-color: rgb(250, 249, 249, 0.90);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.individual-card:hover {
+    box-shadow: 0 16px 32px 0 rgba(225, 27, 181, 0.85);
+}
+
+.header h1 {
+    text-shadow: 2px 2px 4px rgba(225, 27, 181, 0.85);
+}
