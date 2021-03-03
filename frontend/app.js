@@ -12,6 +12,8 @@ fetch(baseURL)
             const score = document.createElement('h3')
             const director = document.createElement('p')
             const image = document.createElement('img')
+            const trailer = document.createElement('a')
+            console.log(trailer)
             
             movieCard.className = "individual-card"
             movieName.textContent = movie.name
@@ -20,8 +22,10 @@ fetch(baseURL)
             score.textContent = `80's Score: ${movie.score_80s}`
             director.textContent = `Director: ${movie.director.name}`
             image.src = movie.image
+            trailer.href = movie.trailer
+            trailer.textContent = "See Trailer"
 
             cards.appendChild(movieCard)
-            movieCard.append(image, movieName, score, director, releaseDate, genre)
+            movieCard.append(image, movieName, score, director, releaseDate, genre, trailer)
         })
     })
